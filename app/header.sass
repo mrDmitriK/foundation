@@ -1,0 +1,163 @@
+@import "bourbon"
+@import "sass/vars"
+@import "sass/base"
+
+//First screen styles
+
+body
+  font-family: "SourceSansProBold"
+  font-size: 16px
+  position: relative
+  min-width: 320px
+  color: #3c3c3c
+  overflow-x: hidden
+
+.wrapper
+  min-height: 100%
+  overflow: hidden
+  position: relative
+
+.page-header
+  background: #797979
+  min-height: 67.5rem
+.logo-img
+  top: 0
+  left: 0
+  right: 0
+  margin: auto
+  display: block
+  max-height: 125px
+  max-width: 125px
+  margin-top: 220px
+  margin-bottom: 135px
+
+.title-logo
+  font-family: "LatoRegular"
+  font-size: 2.12rem
+  text-align: center
+  color: #fff
+  letter-spacing: 0.5rem
+  position: relative
+  margin-bottom: 105px
+  &::before
+    content: ''
+    position: absolute
+    bottom: -50px
+    height: 2px
+    width: 18%
+    left: 48%
+    margin-left: -7.5%
+    background-color: #fff
+    -webkit-transition: all .5s ease
+    transition: all .5s ease
+
+.title-text
+  font-family: "LatoLight"
+  font-size: 0.875rem
+  text-align: center
+  margin-bottom: 160px
+  color: #d0d0d0
+
+.header_buttom
+  padding: 12px 42px
+  border: 1px solid #ffffff
+  top: 0
+  left: 0
+  right: 0
+  margin: auto
+  display: block
+  max-width: 182px
+
+.buttom_text
+  font-family: "LatoRegular"
+  font-size: 1rem
+  color: #fff
+  text-align: center
+
+  //Mouse Icon
+.mouse-icon
+  border: 2px solid #fff
+  border-radius: 16px
+  height: 40px
+  width: 24px
+  display: inline-block
+  cursor: pointer
+  z-index: 10
+  opacity: 0.7
+  .wheel
+    animation-name: drop
+    animation-duration: 1s
+    animation-timing-function: linear
+    animation-delay: 0s
+    animation-iteration-count: infinite
+    animation-play-state: running
+    position: relative
+    border-radius: 10px
+    background: #fff
+    width: 2px
+    height: 6px
+    top: 4px
+    margin-left: auto
+    margin-right: auto
+
+@-webkit-keyframes drop
+  0%
+    top: 5px
+    opacity: 0
+
+  30%
+    top: 10px
+    opacity: 1
+
+  100%
+    top: 25px
+    opacity: 0
+
+
+@keyframes drop
+  0%
+    top: 5px
+    opacity: 0
+
+  30%
+    top: 10px
+    opacity: 1
+
+  100%
+    top: 25px
+    opacity: 0
+
+.mw-wrapper
+  text-align: center
+  padding: 50px 0
+
+
+
+// навигация по сайту
+
+.header_middle
+  background: #ffffff
+  border-bottom: 1px solid #f2f2f2
+  min-height: 60px
+  margin-bottom: 128px
+.header_middle_title
+  font-family: "SourceSansProBold"
+  font-size: 1.625rem
+  color: #3c3c3c
+  padding-top: 9px
+
+.header_navigation
+  ul.menu
+    float: right
+    li > a
+      font-family: "LatoRegular"
+      font-size: 0.9375rem
+      display: block
+      padding: 21px 0 0 50px
+      color: #3c3c3c
+      transition: all .5s ease;
+      &:hover
+        color: #ada074
+        transition: all .5s ease;
+
+

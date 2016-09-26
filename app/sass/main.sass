@@ -1,0 +1,263 @@
+@import "bourbon"
+@import "vars"
+@import "libs"
+
+//Custom styles here
+
+@import "media"
+
+
+// второй блок
+.main_about
+  min-height: 41rem
+  background: #fff
+.main_about_title
+  font-family: "LatoBold"
+  color: #000
+  margin-bottom: 70px
+  &::before
+    content: ''
+    position: absolute
+    bottom: -35px
+    height: 1px
+    width: 10.5%
+    left: 52%
+    margin-left: -7.5%
+    background-color: #000
+    -webkit-transition: all .5s ease
+    transition: all .5s ease
+.main_about_text
+  line-height: 1.625rem
+  color: #a4a4a4
+  margin-bottom: 75px
+
+.main_icon_title
+  font-family: "LatoRegular"
+  font-size: 1.625rem
+  text-align: center
+  color: #000
+  letter-spacing: 0.2375rem
+  position: relative
+  margin-top: 50px
+  margin-bottom: 30px
+.main_icon_text
+  font-family: "LatoLight"
+  font-size: 0.875rem
+  text-align: center
+  line-height: 1.725rem
+  color: #a4a4a4
+  max-height: 75px
+  max-width: 242px
+  margin: auto
+  display: block
+  margin-bottom: 142px
+.icon-img
+  top: 0
+  left: 0
+  right: 0
+  margin: auto
+  display: block
+  max-height: 125px
+  max-width: 125px
+
+// третий блок
+
+.main_portfolio
+  min-height: 77.5625rem
+  background: #f3f3f3
+
+.main_portfolio_title
+  font-family: "LatoBold"
+  font-size: 2.125rem
+  text-align: center
+  color: #000
+  letter-spacing: 0.3375rem
+  position: relative
+  margin-top: 186px
+  margin-bottom: 117px
+  &::before
+    content: ''
+    position: absolute
+    bottom: -35px
+    height: 1px
+    width: 10.5%
+    left: 52%
+    margin-left: -7.5%
+    background-color: #000
+    -webkit-transition: all .5s ease
+    transition: all .5s ease
+
+.thumbnail
+  border: 0px solid #ada074
+
+.link_buttom
+  border: 1px solid #000
+  margin-top: 160px
+  margin-bottom: 98px
+  .buttom_btn
+    color: #000
+
+// 4 блок
+
+.partners
+  background: #444444
+  min-height: 24.25rem
+  margin-bottom: 180px
+
+.partners_title
+  font-family: "LatoLight"
+  font-size: 1.875rem
+  text-align: center
+  color: #fff
+  letter-spacing: 0.1375rem
+  position: relative
+  margin-top: 100px
+  margin-bottom: 95px
+
+.partners_carusel
+  display: inline-block
+  padding: 0 66px
+  padding-bottom: 20px
+  img
+    max-width: 100%
+
+
+// 5 блок
+
+.contact
+  min-height: 31.375rem
+  color: #fff
+.contact_promo
+  margin-top: 37px
+  margin-bottom: 100px
+
+.name_label
+  display: flex
+  .label-name
+    padding: 18px 50px 52px 0
+    min-width: 10rem
+label
+  font-family: "LatoBold"
+  font-size: 0.875rem
+
+
+.callback
+  color: #000
+  text-align: right
+  font-size: 0.875rem
+  font-family: "LatoBold"
+  top: 0
+  left: 0
+  right: 0
+  margin: 40px 45px auto auto
+  cursor: pointer
+  display: block
+  max-height: 54px
+  max-width: 58px
+
+
+
+textarea
+  max-width: 89%
+  border: 0 solid #000!important
+  margin: 0 0 1rem!important
+  font-family: "LatoLight"!important
+  font-size: 1rem!important
+  color: #0a0a0a!important
+  background-color: #f8f7f7!important
+  box-shadow: inset 0 1px 0px #000!important
+  border-radius: 0px!important
+  textarea[rows]
+    margin-top: 5px
+input
+  border: 0 solid #000!important
+  margin: 0 0 1rem!important
+  font-family: "LatoLight"!important
+  font-size: 1rem!important
+  color: #0a0a0a!important
+  background-color: #f8f7f7!important
+  box-shadow: inset 0 1px 0px #000!important
+  border-radius: 0px!important
+
+.name
+  margin-top: 17px
+
+.name_title
+  font-family: "LatoLight"
+  font-size: 0.875rem
+  color: #000
+  max-width: 100%
+  margin-top: 20px
+
+.name_text
+  font-family: "LatoBold"
+  font-size: 0.875rem
+  color: #000
+  max-width: 100%
+  margin-top: 20px
+  margin-bottom: 29px
+
+.e-mail
+  font-family: "LatoLight"
+  font-size: 0.875rem
+  color: #000
+  max-width: 100%
+
+.icon_cursor
+  margin-top: 16px
+  a
+    padding-right: 15px
+
+  // подвал
+.menu-footer
+  width: 100%
+.promo_footer
+  background: #3c3c3c
+  min-height: 16.9375rem
+.logo-footer
+  margin-top: 50px
+  margin-bottom: 45px
+.promo_menu-footer
+  display: inline-flex
+  margin: 0
+  margin-bottom: 20px
+  li
+    list-style-type: none
+    a
+      padding: 0 11px
+      font-family: "SourceSansProRegular"
+      font-size: 0.875rem
+      color: #8e8e8e
+      &:hover
+        color: #ada074
+        transition: all .5s ease
+
+
+.text-footer
+  font-family: "SourceSansProLight"
+  font-size: 0.875rem
+  color: #8e8e8e
+  text-align: center
+  margin-top: 35px
+  margin-bottom: 60px
+
+
+.top
+  position: fixed
+  bottom: 20px
+  right: 20px
+  width: 50px
+  height: 50px
+  border-radius: 10em
+  cursor: pointer
+  background-color: #fff
+  text-align: center
+  opacity: 0.4
+  transition: all .5s ease
+  .fa
+    font-size: 36px
+    margin-top: 6px
+  &:hover
+    opacity: 1
+    background-color: #aea176
+
